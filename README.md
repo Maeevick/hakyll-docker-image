@@ -8,10 +8,10 @@ __Some humble tests to create a Docker image to build Hakyll(with the huge pando
 - it works to build website with hakyll very fast on CircleCI 
     - _setup environnement is still too long (3min) due to image's weight but builds and tests simple projects in no time as dependencies are already compiled (<1min)_
 - __for the moment, my personnal need is statisfied__
-
-### TODO :
 - optimise size
-    - try to use haskell image directly (350MB compressed) instead of stackage (3.4GB compressed)
+    - __try to use haskell image directly (350MB compressed) instead of stackage (3.4GB compressed)__
+    
+### TODO :
 - publish image publicly on DockerHub
     - currently it's a private repo
 - think about tag management : 
