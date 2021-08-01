@@ -1,4 +1,4 @@
-FROM fpco/stack-build:lts-16.31
+FROM haskell:8.8.4-buster
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
