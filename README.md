@@ -1,6 +1,6 @@
 # hakyll-docker-image
 
-# Some humble tests to create a Docker image to build Hakyll(with the huge pandoc) on CircleCI - FreePlan - before "out of memory" during compilation
+__Some humble tests to create a Docker image to build Hakyll(with the huge pandoc) on CircleCI - FreePlan - before "out of memory" during compilation__
 
 :warning: __No optimisation (14GB image on disk, 4GB compressed on DockerHub) don't use it__ :warning:
 
