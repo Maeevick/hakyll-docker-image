@@ -1,4 +1,4 @@
-# Another Hakyll Docker Image
+# Hakyll Docker Image
 
 DockerHub's repository is <a href="https://hub.docker.com/r/maeevick/hakyll" target="_blank">here</a>
 
