@@ -1,6 +1,8 @@
-FROM maeevick/hakyll:4.13.4.0
+FROM haskell:8.8.4-buster
 
-RUN stack upgrade && stack --resolver lts-16.31 install hspec QuickCheck
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+
+RUN stack upgrade && stack --resolver lts-16.31 install base hakyll hspec QuickCheck
 
 EXPOSE 8000
 
