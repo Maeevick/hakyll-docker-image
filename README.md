@@ -34,7 +34,7 @@ For each version, I propose to maintain at least :
 
 Please don't hesitate to leave a comment and/or open an issue.
 
-I will prepare an image with the latest hakyll (version 4.14.0.0 for the moment) from hackage too.
+I will prepare an image with the latest hakyll (version 4.14.1.0 for the moment) from hackage too.
 
 __It won't be from stackage and will follow hakyll's development so it will be a living version ! So, I won't recommend except for experiment purposes__ :warning:
 
