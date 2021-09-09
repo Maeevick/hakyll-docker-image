@@ -4,13 +4,13 @@ DockerHub's repository is here : <a href="https://hub.docker.com/r/maeevick/haky
 
 ## Motivation
 
-To build my website / blog at <a href="https://www.goblinsatcode.xyz/" target="_blank">https://www.goblinsatcode.xyz</a> with CircleCI's Free Plan (limited to 2 cores and 4GB of ram) I needed a precompiled image. Otherwise, compilation fails with "out of memory", regardless the compilation's flags I passed.
+To build my website / blog at <a href="https://www.goblinsatcode.xyz/" target="_blank">https://www.goblinsatcode.xyz</a> with CircleCI's Free Plan _(limited to 2 cores and 4GB of ram)_ I needed a precompiled image. Otherwise, compilation fails with "out of memory", regardless the compilation's flags I passed.
 
 I searched a Hakyll docker image on DockerHub and I found the <a href="https://hub.docker.com/r/futtetennista/hakyll" target="_blank">futtetennista's one</a>. 
 
 There were several problems for my usage : 
 
-- I wanted to be up to date with the last version of hakyll available on stackage (4.13.4.0).
+- I wanted to be up to date with the last version of hakyll available on stackage _(4.13.4.0)_.
 - I didn't need some library included in it (`make` and `ssh`).
 - I needed `hspec` and `quickcheck` as I always write tests on pure logic.
 
@@ -34,13 +34,13 @@ For each version, I propose to maintain at least :
 
 Please don't hesitate to leave a comment and/or open an issue.
 
-I will prepare an image with the latest hakyll (version 4.14.1.0 for the moment) from hackage too.
+I will prepare an image with the latest hakyll _(version 4.14.1.0 for the moment)_ from hackage too.
 
 __It won't be from stackage and will follow hakyll's development so it will be a living version ! So, I won't recommend except for experiment purposes__ :warning:
 
 ## Last word
 
-I took a lot of pleasure to solve my problem (from a build taking more than 40min with en error to less than 1min30 to install, test, build and deploy), so if it may help someone else I will be happy ! :smile:
+I took a lot of pleasure to solve my problem _(from a build taking more than 40min with en error to less than 1min30 to install, test, build and deploy)_, so if it may help someone else I will be happy ! :smile:
 
 If it may encourage to use hakyll and haskell to build static websites, I will be more than happy ! :satisfied:
 
