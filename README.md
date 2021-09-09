@@ -44,6 +44,6 @@ I took a lot of pleasure to solve my problem _(from a build taking more than 40m
 
 If it may encourage to use hakyll and haskell to build static websites, I will be more than happy ! :satisfied:
 
-_See you in space_ :rocket: _Goblin!_ :japanese_goblin:
+_See you in space_ :rocket: _Goblin!_ 😈
 
 
