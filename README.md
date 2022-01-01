@@ -1,5 +1,7 @@
 # Hakyll Docker Image
 
+⚠️ **Note: _this repository has been archived. I migrated all my CI to GitHub's Actions and I don't use CircleCI anymore. Moreover, I switch from stack to cabal to build my websites with hakyll. It's far smoother and I recommend, so I decided to not invest more time on this repository._**
+
 DockerHub's repository is here : <a href="https://hub.docker.com/r/maeevick/hakyll" target="_blank">https://hub.docker.com/r/maeevick/hakyll</a>
 
 ## Motivation
@@ -30,7 +32,7 @@ For each version, I propose to maintain at least :
 - an image with `hspec` and `quicheck` in addition
 - _open to any suggestion of useful libraries to build amazing hakyll websites_ 
 
-## What's next ?
+## What's next ? ⚠️ no more relevant ⚠️
 
 Please don't hesitate to leave a comment and/or open an issue.
 
